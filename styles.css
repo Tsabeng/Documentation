@@ -1,0 +1,40 @@
+body{
+  font-family:sans-serif;
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  #main-doc {
+    margin-left: 320px;
+    padding: 20px;
+  }
+}
+
+/* Styles pour les petits écrans */
+@media (max-width: 767px) {
+  #navbar {
+    background-color: #f1f1f1;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  #main-doc {
+    padding: 20px;
+  }
+}
+
+header{
+font-size: 20px;
+}
